@@ -38,7 +38,7 @@ p {
 }
 
 .home-cover {
-  background-image: url(/img/home-cover.jpg);
+  background-image:white;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -88,6 +88,33 @@ p {
   text-align: center;
 }
 
+/* social icon colors */
+
+.fa-facebook, .fa-facebook-square {
+    color: #3B5998;
+}
+.fa-twitter, .fa-twitter-square {
+    color: #00aced
+}
+.fa-google-plus, .fa-google-plus-square {
+    color: #DD5044
+}
+.fa-youtube, .fa-youtube-play, .fa-youtube-square {
+    color: #bb0000
+}
+.fa-vimeo-square {
+    color: #aad450
+}
+.fa-pinterest, .fa-pinterest-square {
+    color: #cb2027
+}
+.fa-instagram {
+    color: #DB2986;
+}
+
+.fa-linkedin {
+  color: #007bb6;
+}
 
 @media screen and (max-width: 425px) {
     body {
@@ -100,7 +127,7 @@ p {
 
     .name {
       font-size: 2.5rem;
-      margin-bottom: 1.5rem;
+      margin-bottom: 1rem;
       text-align: left;
     }
 
