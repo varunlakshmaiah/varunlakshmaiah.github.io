@@ -59,6 +59,7 @@ p {
     background-color: rgba(0,0,0,0.4);
     color: white;
     width: 100%;
+    flex: 2;
 }
 
 .subtitle {
@@ -87,6 +88,8 @@ p {
   margin-top: 0.5rem;
   text-align: center;
 }
+
+
 
 /* social icon colors */
 
@@ -128,10 +131,6 @@ p {
     .name {
       font-size: 2.5rem;
       margin-bottom: 1rem;
-      text-align: left;
     }
 
-    .subtitle {
-      text-align: left;
     }
-}
