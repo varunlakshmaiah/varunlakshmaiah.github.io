@@ -119,7 +119,7 @@ p {
   color: #007bb6;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 768px) {
     body {
         font-size: 18px;
 
