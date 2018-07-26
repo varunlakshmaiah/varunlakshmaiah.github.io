@@ -12,6 +12,7 @@ html,body,main {
 
 a:link,a:visited,a:hover,a:active {
     color: Black;
+    text-decoration: none;
 }
 
 body {
@@ -42,7 +43,7 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100%;
+  /*height: 100%; */
   display: flex;
   opacity: 0.9;
   align-items: flex-end;
@@ -135,12 +136,30 @@ hr.custom-hr {
   color: #007bb6;
 }
 
+.programmer {
+  font-size: 2rem;
+}
+.designer {
+  font-size: 2rem;
+}
+
+.photographer {
+  font-size: 2rem;
+  color: white;  /* Fallback: assume this color ON TOP of image */
+  background: url(/img/bg.JPG) no-repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: auto;
+   }
 
 
 @media screen and (max-width: 768px) {
     body {
         font-size: 18px;
+    }
 
+    .subtitle {
+      text-align: left;
     }
     .content {
         padding: 1rem;
@@ -163,4 +182,16 @@ hr.custom-hr {
       height: 120px;
       margin-bottom: 1rem;
     }
+
+    .designer {
+      font-size: 2rem;
+      display: block;
+    }
+
+    .content strong {
+      line-height: 40px;
+      margin-bottom: 1rem;
+    }
+
+    
   }
