@@ -149,6 +149,11 @@ hr.custom-hr {
   font-size: 2rem;
 }
 
+.blogger {
+  font-family: cursive;
+}
+
+
 .photographer {
   font-size: 2rem;
   color: white;  /* Fallback: assume this color ON TOP of image */
